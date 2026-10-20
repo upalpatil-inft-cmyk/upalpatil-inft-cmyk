@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 230" role="img" aria-labelledby="title desc">
+  <title id="title">Upal Patil profile card</title>
+  <desc id="desc">A retro terminal-style player card for Upal Patil.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#100b24"/>
+      <stop offset="1" stop-color="#24104a"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#a78bfa" stroke-opacity=".12"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="760" height="230" rx="18" fill="url(#bg)"/>
+  <rect width="760" height="230" rx="18" fill="url(#grid)"/>
+  <rect x="18" y="18" width="724" height="194" rx="12" fill="none" stroke="#8b5cf6" stroke-opacity=".65"/>
+  <circle cx="54" cy="48" r="7" fill="#fb7185"/>
+  <circle cx="78" cy="48" r="7" fill="#fbbf24"/>
+  <circle cx="102" cy="48" r="7" fill="#34d399"/>
+  <text x="132" y="54" fill="#c4b5fd" font-family="monospace" font-size="14">PLAYER_PROFILE // v2.0</text>
+  <text x="48" y="104" fill="#f5f3ff" font-family="monospace" font-size="29" font-weight="700" filter="url(#glow)">UPAL_PATIL</text>
+  <text x="50" y="132" fill="#c4b5fd" font-family="monospace" font-size="15">class: goofy ahh-dev  •  alignment: chaotic useful</text>
+  <text x="50" y="170" fill="#a78bfa" font-family="monospace" font-size="14">XP</text>
+  <rect x="86" y="159" width="400" height="13" rx="6" fill="#312e81"/>
+  <rect x="86" y="159" width="300" height="13" rx="6" fill="#8b5cf6"/>
+  <text x="505" y="170" fill="#ddd6fe" font-family="monospace" font-size="14">[ LOADING NEXT QUEST ]</text>
+  <text x="50" y="195" fill="#34d399" font-family="monospace" font-size="13">● ONLINE</text>
+  <text x="650" y="195" fill="#fbbf24" font-family="monospace" font-size="13">LVL ?</text>
+</svg>
